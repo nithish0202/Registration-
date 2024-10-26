@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <form action=""> -->
+        <div class="container">
+            <para class="title">REGISTRATION FORM</para>
+            <div class="name">
+                <Label>Full Name</Label><br>
+                <input class="input_box" type="text" placeholder="Enter full name" required>
+            </div>
+            <div class="email">
+                <label>Email Address</label><br>
+                <input class="input_box" type="email" placeholder="Enter Email Address" required>
+            </div>
+            <div class="no_dop"> 
+                <div class="no">
+                    <Label class="no">Mobile Number</Label><br>
+                    <input class="input_box" type="tel" placeholder="Enter Mobile Number" required>
+                </div>
+                <div class ="yes">
+                    <Label class="dob">Date Of Birth</Label><br>
+                    <input class="input_box" type="date" required> 
+                </div>
+            </div>
+            <div>
+                <label class="gender" class="gn">Gender</label><br>
+                <div class="checkbox" required>
+                    <div>
+                        <input type="checkbox">
+                        <label for="">Male</label>
+                    </div>
+                    <div>
+                        <input type="checkbox">
+                        <label for="">Female</label>
+                    </div>
+                    <div>
+                        <input type="checkbox">
+                        <label for="">Prefer Not To Say</label><br>
+                    </div>
+                </div>
+            </div>
+            <div class="address">
+                <label class="add">Address</label><br>
+                <input class="input_box" type="text" placeholder="Enter your Address" required><br>
+            </div>
+            
+            <div class="country_code">
+                <div class="con"><label for="">Country</label><br>
+                    <select class="input_box" name="Country" id="Country" > 
+                        <option value="Country">Country</option>
+                        <option value="">India</option>
+                        <option value="">USA</option>
+                        <option value="">Russia</option>
+                    </select></div>
+                <div class="co"><label for="">Postal Code</label><br>
+                    <input class="input_box" type="tel" placeholder="Enter Postal Code" required></div>    
+            </div>
+            <a href="response.html"><Button class="btn">SUBMIT</Button></a>
+            </div>
+        </div>
+    <!-- </form> -->
+</body>
+</html>
